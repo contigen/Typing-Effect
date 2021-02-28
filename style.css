@@ -1,0 +1,51 @@
+* {
+  box-sizing: border-box;
+  font-family: "Montserrat Alternates", sans-serif;
+}
+body {
+  margin: 0;
+  padding: 0;
+  background: rgb(205, 224, 241);
+}
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  text-align: center;
+  padding: 1rem;
+}
+.container h1 {
+  font-size: 4rem;
+}
+.container .typed {
+  font-weight: normal;
+  color: grey;
+}
+.container .cursor {
+  display: inline-block;
+  width: 3px;
+  background-color: grey;
+  margin-left: 1rem;
+  animation: cursor 1s infinite ease;
+}
+.cursor.typing {
+  animation: none;
+}
+@keyframes cursor {
+  0% {
+    background-color: grey;
+  }
+  49% {
+    background-color: grey;
+  }
+  50% {
+    background-color: transparent;
+  }
+  99% {
+    background-color: transparent;
+  }
+  100% {
+    background-color: grey;
+  }
+}
