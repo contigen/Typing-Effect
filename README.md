@@ -1,2 +1,2 @@
-# Typing-Effect
-A typing effect with JavaScript
+# Typing Effect
+A typing effect done with JavaScript.
