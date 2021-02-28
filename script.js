@@ -5,7 +5,7 @@ const typedText = [
   `beautiful`,
   `a journey, part of life`,
   `fun`,
-  `could be hard, or hard actually`,
+  `not easy, but not particularly hard`,
 ];
 const typingDelay = 200;
 const erasingDelay = 120;
